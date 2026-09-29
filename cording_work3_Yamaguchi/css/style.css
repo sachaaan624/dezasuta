@@ -1,0 +1,48 @@
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    max-width: 1000px;
+    text-align: center;
+    color: darkgreen;
+    margin: 50px;
+}
+
+.white-container{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 30px 30px;
+}
+
+div img{
+    width: 270px;
+}
+
+.text-box{
+    width: 250px;
+    height: 90px;
+    background-color: white;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+h2{
+    color: darkgreen;
+    border-left: 7px solid;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    h1{
+        justify-content: space-between;
+    }
+
+    .white-container{
+        flex-direction: column;
+        align-items: initial;
+    }
+    
+}
