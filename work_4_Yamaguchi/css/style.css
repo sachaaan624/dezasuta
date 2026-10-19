@@ -1,4 +1,8 @@
 @charset "utf-8";
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #E9D9C0;
 }
@@ -142,6 +146,7 @@ h3 {
 
 .white-box {
     background-color: #fff;
+    border: solid 1px #4f270b;
 }
 
 .event_news {
